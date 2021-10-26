@@ -14,7 +14,7 @@ function setup() {
 
 
 function draw() {
-  background(0, 20);
+  background(220, 0, 0, 20);
   for (let i = 0; i < balls.length; i++) {
     balls[i].update();
     balls[i].edge();
@@ -27,8 +27,8 @@ function draw() {
   }
   moon.update();
   moon.display();
-  
-  
+
+
 }
 
 function mousePressed() {
