@@ -14,7 +14,7 @@ function setup() {
 
 
 function draw() {
-  background(0, 51, 0, 20);
+  background(20);
   for (let i = 0; i < balls.length; i++) {
     balls[i].update();
     balls[i].edge();
@@ -34,3 +34,4 @@ function draw() {
 function mousePressed() {
   balls.push(new Mover());
 }
+
