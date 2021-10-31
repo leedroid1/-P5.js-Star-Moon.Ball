@@ -13,7 +13,7 @@ function setup() {
 }
   moon = new Yellow();
   tree = new Green();
-  slider = createSlider(0, , 0, 0);
+  slider = createSlider(0, 70, 0, 0);
   slider.position(20, 80);
 }
 
